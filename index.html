@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to My Website</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    h1, h2, p {
+      margin: 0;
+    }
+
+    /* Header Section */
+    header {
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+    }
+
+    /* Main Content Section */
+    .content {
+      padding: 20px;
+      text-align: center;
+    }
+    .content h2 {
+      margin-bottom: 10px;
+    }
+    .content p {
+      color: #555;
+    }
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 300px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+    }
+    .card h3 {
+      margin: 10px 0;
+    }
+    .card p {
+      padding: 0 10px 10px;
+      color: #777;
+    }
+
+    /* Footer Section */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Website</h1>
+    <p>Your one-stop destination for awesome content</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Discover Amazing Things</h1>
+    <p>Explore. Learn. Grow.</p>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2>Our Services</h2>
+    <p>We offer a range of services to meet your needs.</p>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Service 1">
+        <h3>Service 1</h3>
+        <p>Description of service 1.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Service 2">
+        <h3>Service 2</h3>
+        <p>Description of service 2.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Service 3">
+        <h3>Service 3</h3>
+        <p>Description of service 3.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
